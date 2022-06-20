@@ -1,0 +1,68 @@
+.card {
+  margin-top: 5px;
+  margin-left: 12px;
+  width: 176px;
+}
+
+.card-img {
+  height: 235px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.star-icon {
+  height: 12px;
+  margin-bottom: 0.5px;
+}
+
+.card-info {
+  margin-top: 5px;
+}
+
+.rating-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.rating-number {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+  margin-left: 4px;
+}
+
+.country-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+  color: #918E9B;
+  margin-left: 3px;
+}
+
+.service-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+}
+
+.price {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 13px;
+  color: #222222;
+}
+
+.person {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+}
