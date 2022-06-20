@@ -1,8 +1,9 @@
 .header {
-  box-shadow: inset 1px 4px 9px -6px;
+  box-shadow: inset 1px 4px 9px -8px;
   padding: 26px 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header-grid {
@@ -13,25 +14,58 @@
 }
 
 .one {
+  padding: 0 3px;
   padding-top: 48px;
   grid-column: 1 / 2;
 }
 
 .two {
+  padding: 0 2px;
   padding-top: 7px;
   grid-column: 2 / 3;
 }
 
 .three {
+  padding: 0 2px;
   padding-top: 30px;
   grid-column: 3 / 4;
 }
 
 .four {
+  padding: 0 2px;
   grid-column: 4 / 5;
 }
 
 .five {
+  padding: 0 2px;
   padding-top: 18px;
   grid-column: 5 / 6;
+}
+
+.header-text {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header-title {
+  margin: 0 0 0 11px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 39px;
+}
+
+.header-info {
+  margin-left: 12px;
+  margin-top: 18px;
+  color: #222222;
+  width: 320px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
 }

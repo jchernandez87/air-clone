@@ -1,11 +1,10 @@
-import Nav from './Nav';
-import Header from './Header';
+import Card from './Card'
+import '../styles/Main.css';
 
 function Main() {
   return (
-    <main>
-      <Nav />
-      <Header />
+    <main className='main'>
+      <Card />
     </main>
   );
 }

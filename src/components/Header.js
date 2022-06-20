@@ -24,6 +24,10 @@ function Header() {
           <img src="img/24.png" alt="24"></img>
         </div>
       </div>
+      <div className='header-text'>
+        <h1 className='header-title'>Online Experiences</h1>
+        <p className='header-info'>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
+      </div>
     </div>
   );
 }
