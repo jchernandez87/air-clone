@@ -1,0 +1,37 @@
+.header {
+  box-shadow: inset 1px 4px 9px -6px;
+  padding: 26px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 232px;
+  width: 400px;
+}
+
+.one {
+  padding-top: 48px;
+  grid-column: 1 / 2;
+}
+
+.two {
+  padding-top: 7px;
+  grid-column: 2 / 3;
+}
+
+.three {
+  padding-top: 30px;
+  grid-column: 3 / 4;
+}
+
+.four {
+  grid-column: 4 / 5;
+}
+
+.five {
+  padding-top: 18px;
+  grid-column: 5 / 6;
+}

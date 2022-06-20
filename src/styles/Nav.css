@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  align-items: flex-start;
+  padding: 22px 30px;
+}
+
+.logo {
+  height: 25px;
+  width: 82px;
+}
