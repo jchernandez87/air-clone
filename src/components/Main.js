@@ -6,21 +6,16 @@ import "../styles/Main.css";
 
 function Main() {
   const cardElements = MyData.map((item) => (
-    <Card
-      img={item.img}
-      title={item.title}
-      rating={item.stats.rating}
-      reviewCount={item.stats.reviewCount}
-      country={item.location}
-      price={item.price}
-    />
+    <Card item={item} key={item.id} />
   ));
 
   return (
     <main className="main">
       <Nav />
       <Header />
-      <div className="card-slide">{cardElements}</div>
+      <div className="card-slide">
+        {cardElements}
+      </div>
     </main>
   );
 }
