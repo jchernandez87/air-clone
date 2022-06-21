@@ -1,19 +1,21 @@
-import '../styles/Card.css';
+import "../styles/Card.css";
 
-function Card() {
+function Card(props) {
   return (
-    <div className='card'>
-      <img className='card-img' src='img/12.png' alt='card-img' />
-      <div className='card-info'>
-        <div className='rating-info'>
-            <img className='star-icon' src='img/star.png' alt='star'/>
-            <span className='rating-number'>5.0</span>
-          <span className='country-text'>(6) • USA</span>
+    <div className="card">
+      <img className="card-img" src={`img/${props.img}`} alt="card-img" />
+      <div className="card-info">
+        <div className="rating-info">
+          <img className="star-icon" src="img/star.png" alt="star" />
+          <span className="rating-number">{props.rating}</span>
+          <span className="country-text">
+            ({props.reviewCount}) {props.country}
+          </span>
         </div>
-        <span className='service-name'>Life lessons with Katie Zaferes</span>
+        <span className="service-name">{props.title}</span>
         <div>
-          <span className='price'>From $136 /</span>
-          <span className='person'> person</span>
+          <span className="price">From ${props.price}</span>
+          <span className="person"> / person</span>
         </div>
       </div>
     </div>
